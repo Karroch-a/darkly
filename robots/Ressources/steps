@@ -1,0 +1,17 @@
+go to machine-ip/robots.txt
+
+found two disallowed folders:
+    whatever
+    .hidden
+
+go to machine-ip/whatever
+
+download the file founded there: htpasswd
+
+decrypt the content of this file got: dragon (root:dragon looks like a username and password)
+
+and go to machine-ip/admin
+
+login using (root:dragon)
+
+done.

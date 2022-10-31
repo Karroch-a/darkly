@@ -1,0 +1,13 @@
+go to machine-ip/robots.txt
+
+found two disallowed folders:
+    whatever
+    .hidden
+
+go to machine-ip/.hidden found many with nested folders.
+
+create script to pass trough all folders to search for the flag pattern
+
+run the script
+
+done.

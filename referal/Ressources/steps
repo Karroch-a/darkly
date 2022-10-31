@@ -1,0 +1,11 @@
+go to machine-ip/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+
+inspect element then found those wierd instruction : 
+    You must cumming from : "https://www.nsa.gov/" to go to the next step
+    Let's use this browser : "ft_bornToSec". It will help you a lot.
+
+create script to try send request to the same page applying those instructions.(in my case i used js)
+
+run the script
+
+done.

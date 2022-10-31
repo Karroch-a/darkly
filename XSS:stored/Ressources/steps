@@ -1,0 +1,8 @@
+go to machine-ip/?page=feedback
+
+set feedback name to: script
+
+submit the form.
+
+done.
+

@@ -1,0 +1,7 @@
+go to machine-ip/?page=survey 
+
+insepct element change the value of any option to somthing over the range[1, 10]
+
+select the changed value
+
+done.
